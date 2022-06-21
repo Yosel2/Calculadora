@@ -1,0 +1,105 @@
+.fondo {
+    width: 100%;
+    margin-left: 100px;
+    max-width: 80%;
+    border-radius: 1em;
+    padding: 3em 1.5em;
+    text-align: center;
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+
+}
+
+body {
+
+    
+    background: url(https://i.pinimg.com/originals/aa/46/be/aa46beaee67d41a7e5fb027b1ffca0f1.png);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+    display: flex;
+    
+}
+
+
+.boton1{
+
+    position:relative;
+    display: inline-block;
+    padding: 5px 15px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+    
+
+}
+
+.boton2{
+
+    position:relative;
+    display: inline-block;
+    padding: 5px 15px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+
+}
+
+.boton3{
+
+    position:relative;
+    display: inline-block;
+    padding: 5px 15px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+
+}
+
+.boton4{
+
+    position:relative;
+    display: inline-block;
+    padding: 5px 15px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+
+}
+
+.resultado {
+
+text-align: center;
+font-size: 25px;
+
+}
+
+.limpiar {
+
+
+position:relative;
+display: inline-block;
+padding: 5px 15px;
+color: rgb(0, 0, 0);
+letter-spacing: 1px;
+font-size: 20px;
+text-decoration: none;
+overflow: hidden;
+transition: 0.2s;
+
+    
+}

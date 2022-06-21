@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculdora</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div class="fondo"> 
+<form id="formulario" name="calculadora" id="calculadora"> 
+    
+    <div class="resultado">
+
+        <p>
+            Resultado: <span id="resultado"></span>
+        </p> 
+    </div>
+
+<label></label>
+<input type="number" class= "num1" name="1" id="valor1" autofocus placeholder="">
+
+<br>
+<br>
+
+<label></label>
+<input type="number" name="2" id="valor2" autofocus placeholder="">
+
+<br>
+<br>
+
+
+
+<button type="button" class="boton1" onclick="sumar();">Sumar</button>
+
+<button type="button" class="boton2" onclick="restar();">Restar</button>
+
+<button type="button" class="boton3" onclick="multiplicar();">Multiplicar</button>
+
+<button type="button" class="boton4" onclick="dividir();">Dividir</button>
+
+<br> 
+<br>
+
+<button type="button" class="limpiar" onclick="limpiar()">Limpiar</button>
+
+
+
+</div>
+
+</form>
+
+    <script type="text/javascript" src="funciones.js"></script>
+</body>
+</html>
